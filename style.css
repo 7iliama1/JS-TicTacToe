@@ -9,11 +9,12 @@ body {
   font-size: 0.8em;
 }
 h1 {
-  line-height: 1em;
+  line-height: 0.5em;
   margin-bottom: 0;
   padding-bottom: 5px;
-  font-size: 3.6em;
+  font-size: 3.9em;
   font-weight:bolder;
+  color:#fae103
 }
 h2 {
   font-size: 1.8em;
@@ -41,7 +42,7 @@ table {
   border-collapse: collapse;
 }
 .td_game {
-  border: 4px solid rgb(230, 230, 230);
+  border: 4px solid rgb(253, 251, 251);
   width: 90px;
   height: 90px;
   padding: 0;
@@ -60,13 +61,17 @@ table {
   text-align: center;
   font-size: 1.3em;
   font-weight: bold;
+  color:#fae103
 }
 .th_list {
   font-size: 1.3em;
   font-weight: bold;
   text-align: center;
   text-decoration: underline;
+  color: #fae103;
 }
+
+
 #restart {
   font-size: 3em;
   width: 1em;
@@ -74,20 +79,26 @@ table {
   cursor: pointer;
   margin: 0 auto;
   overflow: hidden;
+  color: #fae103;
 }
+
+
+
 .x {
-  color: darksalmon;
+  color: rgb(238, 9, 9);
   position: relative;
   top: -8px;
   font-size: 1.2em;
   cursor: default;
+  opacity:unset;
 }
 .o {
-  color: aquamarine;
+  color: rgb(82, 238, 10);
   position: relative;
   top: -7px;
   font-size: 1.0em;
   cursor: default;
+  opacity:unset;
 }
 
 /* модальный фон */
@@ -141,7 +152,7 @@ table {
 }
 
 .win-color {
-  background-color: rgb(240, 240, 240);
+  background-color: rgb(6, 63, 61);
 }
 
 button {
